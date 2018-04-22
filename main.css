@@ -64,7 +64,7 @@ a:hover {
 }
 .hero {
   width: 100%;
-  top: -125;
+  /* top: -125; */
   position: relative;
   /*background-image: url("https://s3.us-east-2.amazonaws.com/silotrainer-new/hero.png");
   background-size: cover;
@@ -72,10 +72,11 @@ a:hover {
   min-height: 100%;*/
 }
 .hero-heading {
-  font-size: 50px;
+  font-size: 30px;
   max-width: 60%;
   margin: 0 auto;
-  margin-top: 40;
+  margin-top: 20;
+  margin-bottom: 20;
 }
 .hero-heading-sm {
   max-width: 70%;
@@ -86,11 +87,11 @@ a:hover {
   height: auto;
   max-height: 100%;
   max-width: 100%;
-  width: 380px;
+  width: 520px;
 }
 .div-center {
-  margin: 2em auto 10em; 
-  width: 80%; 
+  margin: 2em auto 10em;
+  width: 80%;
   text-align: center;
   overflow: auto;
 }
@@ -172,7 +173,7 @@ a:hover {
 
 .img-appstore {
   width: 150;
-  margin-top: 20px;
+  margin-top: 10px;
   margin-bottom: 20px
 }
 .img-float-right {
@@ -321,7 +322,7 @@ a:hover {
     font-size: 0.9em;
   }
   p {
-  	font-size: 18px;	
+  	font-size: 18px;
   }
   ol {
     font-size: 18px;
@@ -332,8 +333,8 @@ a:hover {
   column-gap: 35px;
  	}
   .div-center {
-    margin: 2em auto 10em; 
-    width: 92%; 
+    margin: 2em auto 10em;
+    width: 92%;
     text-align: center;
     overflow: auto;
   }
@@ -350,7 +351,7 @@ a:hover {
     font-family: 'Helvetica', 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Arial', 'Lucida Grande', 'sans-serif';
   }
   .div-landscape-sm {
-    float: right; 
+    float: right;
     width: 50%;
   }
 }
@@ -359,7 +360,7 @@ a:hover {
   body{
     font-family: 'Helvetica', 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Arial', 'Lucida Grande', 'sans-serif';
   }
-  .div-landscape-sm { 
+  .div-landscape-sm {
     width: 100%;
   }
 }
