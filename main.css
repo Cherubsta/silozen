@@ -9,7 +9,7 @@ html, body {
 h1 {
   font-family: 'Helvetica Neue', 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica', 'Arial', 'Lucida Grande', 'sans-serif';
 	font-size: 40px;
-  font-weight: normal;
+  font-weight: 200;
   margin-bottom: 40px;
   margin-top: 20px;
   line-height: 1.00;
@@ -72,7 +72,8 @@ a:hover {
   min-height: 100%;*/
 }
 .hero-heading {
-  font-size: 30px;
+  font-size: 40px;
+  font-weight: 200;
   max-width: 60%;
   margin: 0 auto;
   margin-top: 20;
@@ -139,6 +140,7 @@ a:hover {
 	border-radius: 5px;
 	padding: 7px 7px 0px 7px;
   width: 60%;
+  margin-bottom: 20px;
 }
 .div-contact {
 	font-size: 20px;
