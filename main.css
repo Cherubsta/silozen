@@ -1,6 +1,7 @@
 body {
   background-color:#0834A6;
   background-image: url(https://rainboxapp.s3.amazonaws.com/snowflakes.png);
+  background-size: contain;
   color: #FCEB6C;
   font-family: 'Helvetica Neue', 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica', 'Arial', 'Lucida Grande', 'sans-serif';
 }
@@ -58,7 +59,7 @@ a:hover {
   color: #FFED7D;
   /*font-weight: bolder;*/
 }
-.container {
+.container-fluid {
   max-width: 920;
   margin: 0 auto;
   text-align: center
