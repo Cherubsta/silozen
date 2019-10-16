@@ -1,6 +1,7 @@
 body {
-  background-color:#000000;
-  color: #b3b3b3;
+  background-color:#0834A6;
+  background-image: url(https://rainboxapp.s3.amazonaws.com/snowflakes.png);
+  color: #FCEB6C;
   font-family: 'Helvetica Neue', 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica', 'Arial', 'Lucida Grande', 'sans-serif';
 }
 html, body {
