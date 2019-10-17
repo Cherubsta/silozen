@@ -22,14 +22,14 @@ a {
 .seahorse {
   position: absolute;
   margin-left: 33%;
+  margin-top: 2em;
   width: 18%;
 }
 .actioncall {
   position: absolute;
   position: -webkit-sticky; /* Safari */
   float: right;
-  margin-right: 8%;
-  padding-bottom: 20px;
+  padding-bottom: 4em;
   bottom: 0;
   right: 10%;
   color: #081E60;
