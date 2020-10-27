@@ -1,239 +1,136 @@
 body {
-  background-color:#000000;
-  color: #b3b3b3;
-  font-family: 'Helvetica Neue', 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica', 'Arial', 'Lucida Grande', 'sans-serif';
-}
-html, body {
-    height: 100%; /*zen*/
-}
-h1 {
-  font-family: 'Helvetica Neue', 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica', 'Arial', 'Lucida Grande', 'sans-serif';
-	font-size: 40px;
-  font-weight: 200;
-  margin-bottom: 40px;
-  margin-top: 20px;
-  line-height: 1.00;
-}
-h2 {
-	font-size: 20px;
-	font-weight: 700;
-	margin-top: 0;
-  margin-bottom: 0;
-}
-p {
-	font-size: 20px;
-	font-weight: 100;
-  margin-bottom: 30px;
-}
-ul {
-  font-size: 18px;
-	font-weight: 200;
-	padding-left: 15px;
-  columns: 2;
-  -webkit-columns: 2;
-  -moz-columns: 2;
-  -webkit-column-gap: 48px; /* Chrome, Safari, Opera */
-  -moz-column-gap: 48px; /* Firefox */
-  column-gap: 48px;
-}
-ol {
-  font-size: 20px;
-	font-weight: 100;
-  padding-left: 32px;
-}​
-li {
-  font-size: 20px;
-  margin-bottom: 20px;
-}
-a {
-	color: #FFED7D;
-	text-decoration: none;
-}
-a, a:visited, a:hover, a:active {
-  color: #FFED7D;
-  /*text-decoration: none;*/
-}
-a:hover {
-  color: #FFED7D;
-  /*font-weight: bolder;*/
-}
-.container {
-  max-width: 920;
-  margin: 0 auto;
-  text-align: center
-}
-.hero {
-  width: 100%;
-  /* top: -125; */
-  position: relative;
-  /*background-image: url("https://s3.us-east-2.amazonaws.com/silotrainer-new/hero.png");
-  background-size: cover;
-  display: block;
-  min-height: 100%;*/
-}
-.hero-heading {
-  font-size: 40px;
-  font-weight: 200;
-  max-width: 60%;
-  margin: 0 auto;
-  margin-top: 20;
-  margin-bottom: 20;
-}
-.hero-heading-sm {
-  max-width: 70%;
-  margin: 0 auto;
-  margin-top: 40;
-}
-.hero-image {
-  height: auto;
-  max-height: 100%;
-  max-width: 100%;
-  width: 520px;
-}
-.div-center {
-  margin: 2em auto 10em;
-  width: 80%;
-  text-align: center;
-  overflow: auto;
-}
-.div-aligntext {
-  text-align: left;
-}
-.divide {
-  width: 50%;
-  float: left;
-  clear: left;
-}
-.div-header {
-  font-size: 18px;
-  margin-bottom: 4px;
-  font-weight: lighter;
-}
-.div-header-sm {
-  font-size: 18px;
-  margin-bottom: 4px;
-  margin-top: 3px;
-  font-weight: lighter;
-}
-.div-motivate-align {
-  text-align: left;
-	max-width: 80%;
-  overflow: auto;
-}
-.div-greyback {
-	background-color: #171717;
-	overflow: auto;
-	clear: both;
-}
-.div-blueback {
-  background-color: #232323;
-  overflow: auto;
-  clear: both;
-  margin-bottom: 20em;
-  margin-top: 5em;
-  color: #fff;
-}
-.div-dictionary {
-  float: right;
-	display: block;
-	border: solid 0.5px;
-	border-radius: 5px;
-	padding: 7px 7px 0px 7px;
-  width: 60%;
-  margin-bottom: 20px;
-}
-.div-contact {
-	font-size: 20px;
-  font-weight: 200;
-  line-height: 32px;
-  margin-right: 1em;
-  margin-top: 2em;
-  text-align: right;
-}
-.div-contact-sm {
-	font-size: 1.5em;
-  font-weight: 200;
-  line-height: 32px;
-  margin-right: 1em;
-  margin-top: 1em;
-  text-align: right;
-}
-.div-footer {
-  margin-left: 2em;
-  margin-right: 2em;
-  margin-bottom: 2em;
-  overflow: hidden;
-  color: #4A4A4A;
-}
-.div-footer-sm {
-  margin-left: 1em;
-  margin-top: 3em;
-  margin-bottom: 2em;
-  overflow: hidden;
-  color: #4A4A4A;
+  color: #464646;
+  font-family: -apple-system, BlinkMacSystemFont, 'Baloo 2', sans-serif;
+  background-color: #FFF096;
 }
 
-.img-appstore {
-  width: 150;
-  margin-top: 10px;
-  margin-bottom: 20px
+h1 {
+  font-family: 'Montserrat', sans-serif;  scroll-behavior: smooth;
+  font-weight: 800;
+  font-size: 78px;
 }
-.img-float-right {
-  float: right;
+
+h2 {
+  font-family: 'Montserrat', sans-serif;  scroll-behavior: smooth;
+  font-weight: 800;
+  font-size: 56px;
 }
-.img-motivate {
-  max-width: 9%;
-  position: relative;
-  float: left;
-  clear: left;
-  margin-right: 4em;
-  padding-top: 16px;
+
+h3 {
+  font-family: 'Montserrat', sans-serif;  scroll-behavior: smooth;
+  font-weight: 800;
+  font-size: 24px;
 }
-.img-motivate-sm {
-  float: left;
-  margin-right: 1em;
-  margin-top: 1em;
-  max-width: 16%;
+
+p {
+  font-size: 20px;
 }
-.img-trainer {
-  float: left;
-  width: 60px;
-  margin-right: 20px;
+
+a {
+  color: #353535;
+  font-size: 1.2rem;
 }
-.img-badge {
+a, a:visited, a:hover, a:active {
+  text-decoration: none;
+  outline: none;
+  /* box-shadow: none; */
+}
+a:hover {
+  /* text-decoration: underline; */
+  color: #353535;
+}
+ul {
+  list-style-type:none;
+  padding-left: 0;
+  font-size: 20px;
+}
+
+.navbar {
+  padding: 0.1rem;
+  background: rgba(255, 240, 150, 0.8);
+}
+.navbar-toggler-icon {
+  font-size: 0.8em;
+}
+.navbar-custom {
+  padding-left: 6px;
+}
+.nav-item {
+  margin-left: 30px;
+}
+
+.font-red {
+  color: #FF375F;
+}
+.font-grey {
+  opacity: 0.4;
+}
+.font-gold {
+  color: #F29938;
+}
+
+@media (max-width: 767px) {
+  .navbar-toggler {
+    border: none;
+    outline: none;
+  }
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.button-glow:hover {
+  opacity: 0.6;
+}
+
+.spacing-top-lg {
+  padding-top: 140px;
+}
+.spacing-top {
+  padding-top: 40px;
+}
+.spacing-top-sm {
+  padding-top: 20px;
+}
+
+.getapp {
+  border: 1px solid #FF375F;
+  border-radius: 8px;
+  padding: 7px;
+  width: 130px;
+  text-align: center;
+}
+a.getapp:hover {
+  border: 1px solid #D8D8D8;
+}
+
+.blockquote {
+  padding-left: 20px;
+  border-left: 7px solid #D8D8D8;
+  max-width: 600px;
+  margin: 0px 10px;
+}
+.quote {
+  font-size: 2rem;
+  font-weight: 100;
+}
+
+footer {
+  color: #353535;
+  margin-bottom: 10px;
+  opacity: 0.4;
+}
+
+.flip-badge {
   margin-left: 17px;
   margin-top: 10px;
   max-width: 66%;
   position: relative;
 }
-.img-tweet {
-  margin-left: 0.8em;
-  max-width: 26px;
-}
-.img-tweet-sm {
-  margin-left: 0.8em;
-  max-width: 5.5%;
-  margin-right:9px
-}
-.img-trouble {
-  max-width: 9%;
-  position: relative;
-  float: left;
-  clear: left;
-  margin-right: 2em;
-}
-.img-trouble-sm {
-  max-width: 13%;
-  position: relative;
-  float: left;
-  clear: left;
-  margin-right: 1em;
-}
-
-.hideme {
-  opacity:0;
-}
-
 .flip-container {
   	margin-top: 4em;
     max-width: 25%;
@@ -257,7 +154,7 @@ a:hover {
   border-radius: 100px;
   width: 100px;
   height: 170px;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 .flip-container .flipper {
   transition: 0.6s;
@@ -283,86 +180,20 @@ a:hover {
   transform: rotateY(540deg);
 }
 
-#delaybox {
-	display: none;
-}
-#delaybox-sm {
-  display: none;
-}
-
-.button-glow:hover {
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  border-radius: 5px;
-  -webkit-box-shadow: 0px 0px 30px 0px #FFED7D;
-  -moz-box-shadow:    0px 0px 30px 0px #FFED7D;
-  box-shadow:         0px 0px 30px 0px #FFED7D;
-}
-.button-glow:last-of-type:hover {
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  border-radius: 5px;
-  -webkit-box-shadow: 0px 0px 30px 0px #FFED7D;
-  -moz-box-shadow:    0px 0px 30px 0px #FFED7D;
-  box-shadow:         0px 0px 30px 0px #FFED7D;
+.bounce {
+  -moz-animation: bounce 3s infinite;
+  -webkit-animation: bounce 3s infinite;
+  animation: bounce 3s infinite;
 }
 
-@media(max-width: 800px) { /* for devies under 600px width, iPhone 6+ */
-  h1 {
-    font-size: 28px;
-    margin-bottom: 24px;
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
   }
-  h2 {
-    font-size: 1.3em;
-    margin-top: 0.4em;
+  40% {
+    transform: translateY(-10px);
   }
-  h3 {
-    font-size: 1.1em;
-    margin-top: 0.6em;
-  }
-  h4 {
-    font-size: 0.9em;
-  }
-  p {
-  	font-size: 18px;
-  }
-  ol {
-    font-size: 18px;
-  }
-  ul {
- 	min-width: 260px;
-  font-size: 12px;
-  column-gap: 35px;
- 	}
-  .div-center {
-    margin: 2em auto 10em;
-    width: 92%;
-    text-align: center;
-    overflow: auto;
-  }
-  .hero-heading {
-    font-size: 30px;
-    max-width: 60%;
-    margin: 0 auto;
-    margin-top: 40;
-  }
-}
-/* Landscape phones and portrait tablets */
-@media (max-width: 767px) {
-  body{
-    font-family: 'Helvetica', 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Arial', 'Lucida Grande', 'sans-serif';
-  }
-  .div-landscape-sm {
-    float: right;
-    width: 50%;
-  }
-}
-/* Portrait phones and smaller */
-@media (max-width: 480px) {
-  body{
-    font-family: 'Helvetica', 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Arial', 'Lucida Grande', 'sans-serif';
-  }
-  .div-landscape-sm {
-    width: 100%;
+  60% {
+    transform: translateY(-7px);
   }
 }

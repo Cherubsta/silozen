@@ -1,321 +1,191 @@
+<!doctype html>
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-  <meta name="description" content="Silent meditation designed for WATCH. Introducing a simple way to complete timed meditation practices, using your Apple Watch.">
-  <meta name="keywords" content="meditation timer, mindfulness timer, interval timer, interval timing, yoga timer, apple watch meditation timer, meditation timer for apple watch">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="Meditation timer for WATCH. A simple way to complete timed yoga practices with your Apple Watch.">
+  <meta name="keywords" content="meditation timer, yoga timer, interval timer, interval timing, mindfulness timer, apple watch meditation timer, meditation timer for apple watch">
   <meta name="apple-itunes-app" content="app-id=1246470512, affiliate-data=myAffiliateData, app-argument=myURL">
 
   <meta name="twitter:card" content="app">
-  <meta name="twitter:site" content="@mysilozen">
-  <meta name="twitter:description" content="Silent Meditation timer for WATCH. SILO watches the clock&mdash;so you can focus on your breath.">
-  <meta name="twitter:app:country" content="US">
-  <meta name="twitter:app:name:iphone" content="SILO Zen">
-  <meta name="twitter:app:id:iphone" content="1246470512">
-  <meta name="twitter:app:url:iphone" content="https://appsto.re/us/Wf6skb.i">
-  <meta name="twitter:app:name:ipad" content="SILO Zen">
-  <meta name="twitter:app:id:ipad" content="1246470512">
-  <meta name="twitter:app:url:ipad" content="https://appsto.re/us/Wf6skb.i">
+  <meta name="twitter:site" content="@silozenapp">
+  <meta name="twitter:creator" content="@cherubsta" />
+  <meta property="og:url" content="https://silozen.com/" />
+  <meta property="og:title" content="Silent Meditation timer for WATCH" />
+  <meta property="og:description" content="silo watches the clock so you don't have to." />
+  <meta property="og:image" content="https://silozen1.s3-us-west-1.amazonaws.com/app-icon.png" />
 
-  <link rel="apple-touch-icon" sizes="57x57" href="https://s3.us-east-2.amazonaws.com/silozen/appletouch-icon57.png">
-  <link rel="apple-touch-icon" sizes="120x120" href="https://s3.us-east-2.amazonaws.com/silozen/appletouch-icon120.png">
-  <link rel="apple-touch-icon" sizes="180x180" href="https://s3.us-east-2.amazonaws.com/silozen/appletouch-icon180.png">
-  <link rel="shortcut icon" href="https://s3.us-east-2.amazonaws.com/silozen/favicon.png">
-  <!-- Latest Bootstrap compiled and minified CSS -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <link rel="apple-touch-icon" sizes="57x57" href="https://silozen1.s3-us-west-1.amazonaws.com/appletouch-icon57.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="https://silozen1.s3-us-west-1.amazonaws.com/appletouch-icon120.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="https://silozen1.s3-us-west-1.amazonaws.com/appletouch-icon180.png">
+  <link rel="shortcut icon" href="https://silozen1.s3-us-west-1.amazonaws.com/favicon.png">
   <link rel="stylesheet" type="text/css" href="main.css">
-  <title>SILO |zen|</title>
+  <link href="https://fonts.googleapis.com/css?family=Baloo+2|Montserrat:400,800,900&display=swap" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <title>silo zen</title>
 </head>
 <body>
-<div style="min-height: 570px;">
-  <script>
-    $(document).ready(function() {
-      $('#delaybox').delay(1000).fadeIn(800);
-    });
-  </script>
-  <div id="delaybox">
-    <div class="div-center visible-sm-block visible-md-block visible-lg-block">
-      <div style="clear: right;">
-        <img src="https://s3-us-east-2.amazonaws.com/silozen/header-logo.png" alt="Apple Watch" width="86" style="margin-bottom: 4px">
-        <div class="div-header">SILO |zen|</div>
-        <img src="https://s3-us-east-2.amazonaws.com/silozen/header-logo.png" alt="Apple Watch" width="86" style="margin-bottom: 14px">
+  <div class="container">
+    <nav class="navbar navbar-expand-lg sticky-top" style="padding-top: 15px;">
+      <a class="navbar-brand" href="#">
+        <img src="https://silozen1.s3-us-west-1.amazonaws.com/app-icon.png" width="30" height="30" class="d-inline-block align-top" alt="" loading="lazy"> <span class="navbar-custom">|silo| zen</span></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav ml-auto">
+          <a class="nav-item nav-link" href="mailto:contact@silozen.com?subject=👋silo support">Contact</a>
+          <a class="nav-item nav-link getapp" href="https://appsto.re/us/Wf6skb.i" style="color: #FF375F;">Get the App<span class="sr-only">(current)</span></a>
+        </div>
       </div>
-      <div class="hero">
-        <img src="https://s3.us-east-2.amazonaws.com/silozen/hero.png" alt="WATCH" class="hero-image" >
-        <h1 class="hero-heading">Silent meditation intervals</h1>
-        <p style="font-size: 24px; margin-top: 20px; margin: auto; width: 60%;">SILO taps you on the wrist when it's time to change position, so you can focus on your practice and not the clock.</p>
-        <a href="https://appsto.re/us/Wf6skb.i" onclick="ga('send', 'event', 'App Store Top', 'Clicked', 'Spring Campaign', '1');"><img class="button-glow img-appstore" src="https://s3-us-east-2.amazonaws.com/silozen/appstore.png" alt="app store"></a>
-      </div>
+    </nav>
 
-    </div>
-    <div class="div-center visible-xs-block">
-      <div style="clear: right;">
-        <img src="https://s3-us-east-2.amazonaws.com/silozen/header-logo.png" alt="Apple Watch" width="86" style="margin-bottom: 4px">
-        <div class="div-header">SILO |zen|</div>
-        <img src="https://s3-us-east-2.amazonaws.com/silozen/header-logo.png" alt="Apple Watch" width="86" style="margin-bottom: 4px">
-      </div>
-      <h1 class="hero-heading-sm">Silent meditation intervals</h1>
-      <div class="hero">
-        <img src="https://s3.us-east-2.amazonaws.com/silozen/hero.png" alt="WATCH" class="hero-image">
-        <p>SILO taps you on the wrist when it's time to change position, so you can focus on your breath.</p>
-        <a href="https://appsto.re/us/Wf6skb.i" onclick="ga('send', 'event', 'App Store Top', 'Clicked', 'Spring Campaign', '1');"><img src="https://s3-us-east-2.amazonaws.com/silozen/appstore.png" alt="app store" width="150"></a>
-      </div>
-    </div>
-  </div>
-</div>
-
-<div class="container">
-  <script>
-    $(document).ready(function() {
-      $('#delaybox-sm').delay(1000).fadeIn(800);
-    });
-  </script>
-  <div id="delaybox-sm">
-    <div class="div-center visible-sm-block visible-md-block visible-lg-block hideme">
-      <div class="div-aligntext divide">
-        <h1>Silence speaks volumes</h1>
-        <p>Designed specifically for the WATCH, SILO gives you a silent tap on the wrist when it's time to change positions.</p>
-        <p>Keeping a sound state of mind during meditation requires minimal distractions. SILO disconnects you from the outside world so you can focus on your practice.</p>
-      </div>
-      <img src="https://s3-us-east-2.amazonaws.com/silozen/watch-go.png" alt="zen" width="250" class="img-float-right">
-    </div>
-    <div class="visible-xs-block">
-      <div class="div-center hideme">
-        <img src="https://s3-us-east-2.amazonaws.com/silozen/watch-go.png" alt="zen" width="200">
-        <div class="div-aligntext">
-          <h1>Silence speaks volumes</h1>
-          <p>Designed specifically for the WATCH, SILO gives you a silent tap on the wrist when it's time to change positions.</p>
-          <p>Keeping a sound state of mind during meditation requires minimal distractions. SILO disconnects you from the outside world so you can focus on your practice.</p>
+    <div class="spacing-top d-none d-md-block">
+      <div class="row">
+        <div class="col-6" style="align-items: center">
+          <img class="float-right" src="https://silozen1.s3-us-west-1.amazonaws.com/zen-watch.png" style="margin:40px" alt="Lamp" height="340px">
+        </div>
+        <div class="col-6">
+          <h1 class="spacing-top-sm">
+            simple <br>
+            yoga <br>
+            timer <br>
+            <h2 class="font-red">on WATCH</h2>
+          </h1>
         </div>
       </div>
     </div>
-  </div>
+    <div class="spacing-top-sm d-md-none d-lg-none d-xl-none">
+      <div class="row">
+        <img class="center" src="https://silozen1.s3-us-west-1.amazonaws.com/zen-watch.png" alt="Lamp" height="340px">
+      </div>
+      <div class="row center spacing-top-sm">
+        <h1 style="font-size: 26px">
+          simple yoga timer <br>
+          <span class="font-red">on WATCH</span>
+        </h1>
+      </div>
+    </div>
 
-  <div class="visible-sm-block visible-md-block visible-lg-block">
-    <div class="div-center hideme">
-      <div class="divide">
-        <img src="https://s3-us-east-2.amazonaws.com/silozen/iphone-workout.png" alt="Watch Settings" width="200" style="float: left;">
-      </div>
-      <div class="div-aligntext">
-        <h1>How it works</h1>
-        <ol>
-          <li style="margin-bottom: 20px">Set a series of asanas using the SILO iPhone app and press ‘sync’</li>
-          <li style="margin-bottom: 20px">Pull up your WATCH and hit go to begin</li>
-          <li style="margin-bottom: 20px">A series of taps tell you when to switch up</li>
-        </ol>
-      </div>
+    <div class="row center spacing-top-sm">
+      <a href="https://appsto.re/us/Wf6skb.i" class="button-glow"><img src="https://silozen1.s3-us-west-1.amazonaws.com/badge-wt.png" alt="Lamp" height="54"></a>
     </div>
-  </div>
-  <div class="visible-xs-block">
-    <div class="div-center hideme">
-      <img src="https://s3-us-east-2.amazonaws.com/silozen/iphone-workout.png" alt="Apple Watch" width="150">
-      <div class="div-aligntext">
-        <h1>How it works</h1>
-        <ol>
-          <li style="margin-bottom: 20px">Set a series of asanas using the SILO iPhone app and press ‘sync’</li>
-          <li style="margin-bottom: 20px">Pull up your WATCH and hit go to begin</li>
-          <li style="margin-bottom: 20px">A series of taps tell you when to switch up</li>
-        </ol>
-      </div>
+    <div class="row center spacing-top">
+      <p class="center" style="max-width: 410px">A silent yoga timer to help you focus on your breath&mdash;not on the clock.</p>
     </div>
-  </div>
+    <div class="row center">
+      <a><img class="bounce" src="https://silozen1.s3-us-west-1.amazonaws.com/chevron.png" alt="Lamp" height="6"></a>
+    </div>
 
-  <div class="div-center visible-sm-block visible-md-block visible-lg-block">
-    <div class="div-aligntext divide hideme">
-      <h1>Progress at a glance</h1>
-      <p>While in a meditative state, SILO gives you quick access to only the info you need.</p>
-      <p>Simply raise your wrist to check the timer status and a preview of the next posture.</p>
-    </div>
-    <img src="https://s3-us-east-2.amazonaws.com/silozen/lunges.png" alt="track time" class="img-float-right" width="190">
-  </div>
-  <div class="visible-xs-block">
-    <div class="div-center hideme">
-      <img src="https://s3-us-east-2.amazonaws.com/silozen/lunges.png" alt="track time" width="150">
-      <div class="div-aligntext">
-        <h1>Progress at a glance</h1>
-        <p>While in a meditative state, SILO gives you quick access to only the info you need.</p>
-        <p>Simply raise your wrist to check the timer status and a preview of the next posture.</p>
-      </div>
-    </div>
-  </div>
 
-  <div class="visible-sm-block visible-md-block visible-lg-block">
-    <div class="div-center hideme">
-      <div class="divide">
-        <img src="https://s3-us-east-2.amazonaws.com/silozen/iphone-preset.png" alt="Watch Settings" width="200" style="float: left;">
-      </div>
-      <div class="div-aligntext">
-        <h1>Set it and forget it</h1>
-        <p>SILO has three presets. Once they are set on your phone they're always ready to go on your WATCH.</p>
-        <p>The homescreen displays your total mindfulness minutes, with the hopes to keep you motivated.</p>
-      </div>
-    </div>
-  </div>
-  <div class="visible-xs-block">
-    <div class="div-center hideme">
-      <img src="https://s3-us-east-2.amazonaws.com/silozen/iphone-preset.png" alt="Apple Watch" width="150">
-      <div class="div-aligntext">
-        <h1>Set it and forget it</h1>
-        <p>SILO has three presets. Once they are set on your phone they're always ready to go on your WATCH.</p>
-        <p>The homescreen displays your total mindfulness minutes, with the hopes to keep you motivated.</p>
-      </div>
-    </div>
-  </div>
-
-  <div class="div-center visible-sm-block visible-md-block visible-lg-block">
-    <div class="div-aligntext divide hideme">
-      <h1>Monitor progress</h1>
-      <p>After each meditation, view your mindfulness minutes. SILO also updates your Health Activity Rings so you can see the progress.</p>
-    </div>
-    <img src="https://s3-us-east-2.amazonaws.com/silozen/watch-progress.png" alt="zen" width="250" class="img-float-right">
-  </div>
-  <div class="visible-xs-block">
-    <div class="div-center hideme">
-      <img src="https://s3-us-east-2.amazonaws.com/silozen/watch-progress.png" alt="zen" width="200">
-      <div class="div-aligntext">
-        <h1>Monitor progress</h1>
-        <p>After each meditation, view your mindfulness minutes. SILO also updates your Health Activity Rings so you can see the progress.</p>
-      </div>
-    </div>
-  </div>
-
-  <div class="visible-sm-block visible-md-block visible-lg-block">
-    <div class="div-center hideme">
-      <div class="divide" style="min-height: 330px">
-        <img src="https://s3-us-east-2.amazonaws.com/silozen/working.png" alt="Watch Settings" width="100" style="float: left; margin-left: 150px;">
-      </div>
-      <div class="div-aligntext">
-        <h1>Fully customizable</h1>
-        <p>Yogasanas come in a wide variety of timed motions. SILO is designed to be fully customizable while maintaining a simple and friendly user interface.</p>
-      </div>
-    </div>
-  </div>
-  <div class="visible-xs-block">
-    <div class="div-center hideme">
-      <img src="https://s3-us-east-2.amazonaws.com/silozen/working.png" alt="Apple Watch" width="50">
-      <div class="div-aligntext">
-        <h1>Fully customizable</h1>
-        <p>Yogasanas come in a wide variety of timed motions. SILO is designed to be fully customizable while maintaining a simple and friendly user interface.</p>
-      </div>
-    </div>
-  </div>
-
-  <div class="div-center visible-sm-block visible-md-block visible-lg-block">
-    <div class="div-aligntext divide hideme">
-      <h1>The power of touch</h1>
-      <p>The WATCH Taptic Engine, gives you keen sense of time. This keeps you hands-free, eyes-free, and ears-free, letting you focus on your breath and not the clock.</p>
-    </div>
-    <img src="https://s3-us-east-2.amazonaws.com/silozen/watch-haptics.png" alt="track time" class="img-float-right" width="240">
-  </div>
-  <div class="visible-xs-block">
-    <div class="div-center hideme">
-      <img src="https://s3-us-east-2.amazonaws.com/silozen/watch-haptics.png" alt="track time" width="200">
-      <div class="div-aligntext">
-        <h1>The power of touch</h1>
-        <p>The WATCH Taptic Engine, gives you keen sense of time. This keeps you hands-free, eyes-free, and ears-free, letting you focus on your breath and not the clock.</p>
-      </div>
-    </div>
-  </div>
-
-  <div class="visible-sm-block visible-md-block visible-lg-block">
-    <div class="div-center hideme">
-      <div class="divide" style="width: 40%">
-        <img src="https://s3-us-east-2.amazonaws.com/silozen/watch-rest.png" alt="Back to work" width="200" style="margin-right: 4em; float: left;">
-      </div>
-      <div class="div-aligntext">
-        <h1 style="font-size: 60px; margin-top: 0px">Simplify your practice</h1>
-        <div class="div-dictionary">
-          <div style="font-size: 16px"><b>si·lo</b> <span style="font-weight: lighter;">/'sīlō/</span></div>
-          <div style="font-size: 12px; font-weight: 100">verb/noun: silo; past tense: siloed; present participle: siloing</div>
-          <ol style="font-size: 14px; font-weight: 100">
-            <li style="padding-top: 10px; padding-left: 0px;">isolate (one system, process, etc.) from others.</li>
-            <li style="padding-top: 5px; padding-left: 0px;">better way to get stuff done.</li>
-          </ol>
+    <div class="row center spacing-top-lg d-none d-md-block">
+      <h2>keep the focus</h2>
+      <h2>on you</h2>
+      <div class="row spacing-top-sm">
+        <div class="col-7">
+          <img src="https://silozen1.s3-us-west-1.amazonaws.com/zen.png" alt="Lamp" height="580px">
         </div>
-        <div>
-          <a href="https://appsto.re/us/Wf6skb.i" onclick="ga('send', 'event', 'App Store Bottom', 'Clicked', 'Spring Campaign', '1');"><img class="button-glow img-appstore" src="https://s3-us-east-2.amazonaws.com/silozen/appstore.png" alt="app store"></a>
+        <div class="col-5 align-self-center text-left" style="margin-bottom: 110px; right:110px;">
+          <h3>Never miss a beat</h3>
+          <p style="max-width: 400px">Say goodbye to noisy timers, bright screens, and disturbing others nearby</p>
+          <h3 class="spacing-top">Distraction-free focus</h3>
+          <p style="max-width: 400px">A series of haptic notifications remind you to change your postures</p>
         </div>
       </div>
     </div>
-  </div>
-  <div class="visible-xs-block">
-    <div class="div-center hideme">
-      <img src="https://s3-us-east-2.amazonaws.com/silozen/watch-rest.png" alt="Back to work" width="150">
-      <div class="div-aligntext">
-        <h1 style="margin-top: 10px">Simplify your practice</h1>
-        <div class="div-dictionary" style="width: 100%;">
-          <div style="font-size: 16px"><b>si·lo</b> <span style="font-weight: lighter;">/'sīlō/</span></div>
-          <div style="font-size: 12px; font-weight: 100">verb/noun: silo; past tense: siloed; present participle: siloing</div>
-          <ol style="font-size: 14px; font-weight: 100">
-            <li style="padding-top: 10px; padding-left: 0px;">isolate (one system, process, etc.) from others.</li>
-            <li style="padding-top: 5px; padding-left: 0px;">better way to get stuff done.</li>
-          </ol>
-        </div>
-        <div style="margin-top: 20px;">
-          <a href="https://appsto.re/us/Wf6skb.i" onclick="ga('send', 'event', 'App Store Bottom', 'Clicked', 'Spring Campaign', '1');"><img src="https://s3-us-east-2.amazonaws.com/silozen/appstore.png" alt="app store" class="img-appstore"></a>
+    <div class="row center spacing-top-lg d-md-none d-lg-none d-xl-none">
+      <h2 style="font-size: 30px">keep the focus</h2>
+      <h2 style="font-size: 30px">on you</h2>
+      <div class="spacing-top-sm">
+        <img class="center img-fluid" src="https://silozen1.s3-us-west-1.amazonaws.com/zen-sm.png" alt="Lamp" height="600">
+      </div>
+      <div class="row text-left">
+        <div class="col" style="bottom:50px">
+          <h3>Never miss a beat</h3>
+          <p style="max-width: 400px">Say goodbye to noisy timers, bright screens, and disturbing others nearby</p>
+          <h3 class="spacing-top">Distraction-free focus</h3>
+          <p style="max-width: 400px">A series of haptic notifications remind you to change your postures</p>
         </div>
       </div>
     </div>
-  </div>
-</div>
 
-<div class="flip-container" ontouchstart="this.classList.toggle('hover');">
-  <div class="flipper">
-    <div class="front">
-      <img src="https://s3-us-east-2.amazonaws.com/silozen/badge_sync.png" alt="silo" class="img-badge" />
+    <div class="spacing-top-lg d-none d-md-block">
+      <div class="row">
+        <div class="col-6" style="align-items: center">
+          <img class="float-right" src="https://silozen1.s3-us-west-1.amazonaws.com/press-watch.png" style="margin:40px" alt="Lamp" height="340px">
+        </div>
+        <div class="col-6" style="top:50px">
+          <h1>a simple</h1>
+          <h1>press</h1>
+          <h1 class="font-red">and go.</h1>
+        </div>
+      </div>
     </div>
-    <div class="back">
-      <img src="https://s3-us-east-2.amazonaws.com/silozen/badge_check.png" alt="silo" class="img-badge" />
+    <div class="spacing-top-lg d-md-none d-lg-none d-xl-none">
+      <div class="row">
+        <img class="center" src="https://silozen1.s3-us-west-1.amazonaws.com/press-watch.png" alt="Lamp" height="340px">
+      </div>
+      <div class="col spacing-top-sm">
+        <h1 style="font-size: 26px">a simple press <span class="font-red">and go</span></h1>
+      </div>
+    </div>
+    <div class="col center">
+      <p class="center" style="max-width: 460px; text-align:left;">silo is designed around a minimalistic experience, to keep you focused on what matters. Timers are customizable to your preferences and work without your phone.</p>
+    </div>
+
+    <div class="row center spacing-top-lg d-none d-md-block">
+      <h2>silence speaks</h2>
+      <h2>volumes</h2>
+      <div class="row spacing-top-sm">
+        <div class="col-7">
+          <img src="https://silozen1.s3-us-west-1.amazonaws.com/watch-vibe.png" alt="Lamp" height="480px">
+        </div>
+        <div class="col-5 align-self-center text-left" style="margin-bottom: 20px; right:110px;">
+          <p style="max-width: 400px">The haptic taps delivered by the WATCH Taptic Engine, give you a subtle sense of time. This lets you put a hundred percent of your focus on the practices you are doing in the moment.</p>
+        </div>
+      </div>
+    </div>
+    <div class="row center spacing-top-lg d-md-none d-lg-none d-xl-none">
+      <h2 style="font-size: 30px">silence speaks</h2>
+      <h2 style="font-size: 30px">volumes</h2>
+      <div class="spacing-top-sm">
+        <img class="center img-fluid" src="https://silozen1.s3-us-west-1.amazonaws.com/watch-vibe.png" alt="Lamp" height="600">
+      </div>
+      <div class="row text-left">
+        <div class="col" style="bottom:50px">
+          <p style="max-width: 400px">The haptic taps delivered by the WATCH Taptic Engine, give you a subtle sense of time. This lets you put a hundred percent of your focus on the practices you are doing in the moment.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="row center spacing-top-lg" style="max-width: 600px">
+      <img class="center img-fluid" src="https://silozen1.s3-us-west-1.amazonaws.com/zen-quote.png" alt="Lamp">
+    </div>
+    <div class="row center spacing-top-sm">
+      <a href="https://appsto.re/us/Wf6skb.i" class="button-glow"><img src="https://silozen1.s3-us-west-1.amazonaws.com/badge-wt.png" alt="Lamp" height="54"></a>
+    </div>
+
+    <!-- <div class="flip-container spacing-top-lg" ontouchstart="this.classList.toggle('hover');">
+      <div class="flipper">
+        <div class="front">
+          <img src="https://silofocus1.s3.amazonaws.com/badge_sync.png" alt="silo" class="flip-badge"/>
+        </div>
+        <div class="back">
+          <img src="https://silofocus1.s3.amazonaws.com/badge_check.png" alt="silo" class="flip-badge"/>
+        </div>
+      </div>
+    </div> -->
+
+    <div class="row center spacing-top-lg" style="margin-bottom:20px;">
+      <footer>|silo| zen &copy 2020 dark matter developers • all rights reserved</footer>
     </div>
   </div>
-</div>
 
-<div class="div-greyback">
-  <div class="div-contact visible-sm-block visible-md-block visible-lg-block">
-    <div><a href="http://silozen.com/support">support • contact@silozen.com</a></div>
-    <div><a href="https://twitter.com/mysilozen" target="_blank">@mysilozen<img src="https://s3-us-east-2.amazonaws.com/silozen/icon-tweet.png" alt="Apple Watch" class="img-tweet"></a></div>
-  </div>
-  <div class="div-contact-sm visible-xs-block">
-    <div><a href="http://silozen.com/support">support • contact@silozen.com</a></div>
-    <div><a href="https://twitter.com/mysilozen" target="_blank">@mysilozen<img src="https://s3-us-east-2.amazonaws.com/silozen/icon-tweet.png" alt="Apple Watch" class="img-tweet-sm"></a></div>
-  </div>
-</div>
+  <!-- JS, Popper.js, and jQuery -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
 
-<div class="div-greyback">
-  <div class="div-footer visible-sm-block visible-md-block visible-lg-block">
-    <footer>SILO |zen| &copy 2017 dark matter developers</footer>
-  </div>
-  <div class="div-footer-sm visible-xs-block">
-    <footer>SILO |zen| &copy 2017 dark matter developers</footer>
-  </div>
-</div>
 </body>
-
-<script type="text/javascript"> /* Fading divs */
-  $(document).ready(function() {
-    /* Every time the window is scrolled ... */
-    $(window).scroll( function(){
-      /* Check the location of each desired element */
-      $('.hideme').each( function(i){
-        var bottom_of_object = $(this).offset().top + $(this).outerHeight();
-        var bottom_of_window = $(window).scrollTop() + $(window).height();
-        /* If the object is completely visible in the window, fade it in */
-        if( bottom_of_window > (bottom_of_object - 625) ){
-          $(this).animate({'opacity':'1'},2000);
-        }
-      });
-    });
-  });
-</script>
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-  ga('create', 'UA-101410360-1', 'auto');
-  ga('send', 'pageview');
-</script>
 </html>
